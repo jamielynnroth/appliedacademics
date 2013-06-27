@@ -21,31 +21,31 @@ $(document).ready(function(){
 // vertically center the #content block on window load
 // only if content is less than height: 400px
 //  $(document).ready(function(){
-//  	if ($(window).height() > 650 && $('.content').height() < 600) {
+//  	// if ($(window).height() > 650 && $('#pagewrap').height() < 600) {
 
 //  		var bodyHeight = ($(window).height()- $('#header').height() - $('#footer').height() - $('.content').height())
 
 //  		if (bodyHeight > 0) {
-//  			$('.content').css({ top: bodyHeight/2});
-//  		} else 
-//  			$('.content').css({top : 0})
-//  	}; //else
+//  			$('#pagewrap').css({ top: bodyHeight/2});
+//  		} else  
+//  			$('#pagewrap').css({top : 0})
+//  	// }; //else
 // }); // docready
 
 // // RESIZE FUNCTIONS 
 	
 // 	//vertically center content block 
 // 	$(window).resize(function() {
-// 		//vertically center content block 
-// 		//if ($(window).height() - $('#footer').height() < 650) {
-// 		if ($(window).height()  > 650 && $('.content').height() < 600) {
+// // 		//vertically center content block 
+// // 		//if ($(window).height() - $('#footer').height() < 650) {
+// 		// if ($(window).height()  > 650 && $('.content').height() < 600) {
 		
 // 		var bodyHeight = ($(window).height()- $('#header').height() - $('#footer').height() - $('.content').height())
 
 //  		if (bodyHeight > 0) {
-//  			$('.content').css({ top: bodyHeight/2});
+//  			$('#pagewrap').css({ top: bodyHeight/2});
 //  		} else 
-//  			$('.content').css({top : 0})
+//  			$('#pagewrap').css({top : 0})
 //  	}; //else
 
 
