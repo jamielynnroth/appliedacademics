@@ -1,5 +1,14 @@
 /* FONTS BEGIN
 ---------------------------------------------------------------------------------*/
+@font-face {font-family: 'HalisGR-Bold';
+font-weight:bold;
+font-style:normal;
+src: url(assets/webfonts/272BEB_0_0.eot);
+src: url(assets/webfonts/272BEB_0_0.eot?#iefix) format('embedded-opentype'),
+url(assets/webfonts/272BEB_0_0.svg) format('svg'),
+url(assets/webfonts/272BEB_0_0.ttf) format('truetype');
+}
+
 @font-face {
   font-family: 'HalisGrotesqueBlack';
   font-weight: bold;
@@ -39,21 +48,21 @@
   font-family: 'HalisGrotesque';
   font-weight: normal;
   font-style: normal;
-  src: url(/assets/webfonts/26F6A9_3_0.eot);
-  src: url(/assets/webfonts/26F6A9_3_0.eot?#iefix) format('embedded-opentype'),
-  url(/assets/webfonts/26F6A9_3_0.woff) format('woff'),
-  url(/assets/webfonts/26F6A9_3_0.ttf) format('truetype'),
-  url(/assets/webfonts/26F6A9_3_0.svg#wf) format('svg');
+  src: url(assets/webfonts/26F6A9_3_0.eot);
+  src: url(assets/webfonts/26F6A9_3_0.eot?#iefix) format('embedded-opentype'),
+  url(assets/webfonts/26F6A9_3_0.woff) format('woff'),
+  url(assets/webfonts/26F6A9_3_0.ttf) format('truetype'),
+  url(assets/webfonts/26F6A9_3_0.svg#wf) format('svg');
 }
  
   
 @font-face {
   font-family: 'HalisGR-Thin';
-  src: url(/assets/webfonts/26F6A9_4_0.eot);
-  src: url(/assets/webfonts/26F6A9_4_0.eot?#iefix) format('embedded-opentype'),
-  url(/assets/webfonts/26F6A9_4_0.woff) format('woff'),
-  url(/assets/webfonts/26F6A9_4_0.ttf) format('truetype'),
-  url(/assets/webfonts/26F6A9_4_0.svg#wf) format('svg');
+  src: url(assets/webfonts/26F6A9_4_0.eot);
+  src: url(assets/webfonts/26F6A9_4_0.eot?#iefix) format('embedded-opentype'),
+  url(assets/webfonts/26F6A9_4_0.woff) format('woff'),
+  url(assets/webfonts/26F6A9_4_0.ttf) format('truetype'),
+  url(assets/webfonts/26F6A9_4_0.svg#wf) format('svg');
 }
  
   
@@ -86,32 +95,38 @@
 
 
 h1 {
-  font-family: 'HalisGrotesqueBlack';
-  color: #7D8F9D;
-  font-size: 25px;
+  font-family: 'HalisGR-Bold';
+  color: #8fa0ad;
+  font-size: 21px;
+  line-height: 37px;
   text-transform: uppercase;
   font-weight: bold;
 }
 
 #who h1 {
   font-size: 16px;
-  padding-top: 6px;
-  padding-left: 10px;
+  padding-top: 4px;
 }
 
 h2 {
-  font-family: 'HalisGrotesqueBlack';
-  color: #AFB3BA;
+  font-family: 'HalisGrotesque';
+  color: #bdc1c7;
   font-size: 16px;
   font-weight: normal;
-  line-height: 27px;
+  line-height: 16px;
+}
+
+#who h2 {
+  padding-top: 15px;
+  padding-bottom:10px;
 }
 
 h3 {
   font-family: 'Lintel-Regular';
-  color: #AFB3BA;
-  font-size: 10px;
-  line-height: 17px;
+  color: #8fa0ad;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: normal;
 }
 
 #who h3 {
@@ -123,4 +138,21 @@ h4 {
   color: white;
   font-size: 10px;
   text-transform: uppercase;
+}
+
+h5 {
+  font-family: 'HalisGR-Bold';
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight:normal;
+}
+
+h6 {
+  font-family: 'HalisGR-Thin';
+  font-size: 17px;
+  color: #8fa0ad;
+  margin: 0;
+  padding: 0;
+  line-height: 22px;
 }
