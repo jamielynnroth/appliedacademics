@@ -12,6 +12,15 @@
 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="scripts/site.js" type="text/javascript"></script>
+	  
+  <!--[if lte IE 6]>
+    <script language="javascript" type="text/javascript">
+        //this is a conditional comment that only IE understands. If a user using IE 6 or lower 
+         //views this page, the following code will run. Otherwise, it will appear commented out.
+        //it goes after the body tag so it can fire after the page loads.
+        fixPngs();
+    </script> 
+<![endif]-->
 	
 <!--[if IE 6]>
   <link rel="stylesheet" type="text/css" href="IE6.css" />
