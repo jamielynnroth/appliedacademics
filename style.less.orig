@@ -125,7 +125,10 @@ hr {
         li {
       margin-bottom: 5px;
       margin-top: 0;
+<<<<<<< HEAD
       
+=======
+>>>>>>> master
       // IE Fix
       display: inline;
       float: left;
