@@ -124,6 +124,10 @@ hr {
         li {
       margin-bottom: 5px;
       margin-top: 0;
+      // IE Fix
+      display: inline;
+      float: left;
+      width: 100%;
 
         a {
           line-height: 37px;
@@ -458,6 +462,7 @@ hr {
     margin:0 auto;
     display:block;
     min-width: 800px;
+    width: 800px;
     height: 100%;
     // width: 716px; // with right links at 10px font change to 693px;
     // height:100%;
