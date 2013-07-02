@@ -1,3 +1,24 @@
+html, body {
+	text-align: center
+}
+
+#pagewrap, #footer, #header {
+	text-align: left;
+}
+
+
+
+.shortpage {
+   height: expression( this.scrollHeight < 701 ? "700px" : "auto" );
+  height: 100%;
+}
+
+.longpage {
+   height: expression( this.scrollHeight < 1001 ? "1000px" : "auto" );
+  height: 100%;
+}
+
+
 #mainNav ul li {
 	  display: inline !important;
       float: left !important;
