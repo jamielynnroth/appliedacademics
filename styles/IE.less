@@ -2,6 +2,11 @@ html, body {
 	text-align: center;
 }
 
+// Make footer img appear in IE8
+.pure-g-r img {
+	max-width: auto;
+}
+
 #pagewrap, #footer, #header {
 	text-align: left;
 }
@@ -35,3 +40,105 @@ html, body {
 #homewrap {
 	height: 400px;
 }
+
+//center TC + privacy content 
+#tcwrap, #privacywrap {
+	left: 50%;
+	margin-left: -250px;
+}
+
+// make custom li img appear in IE 8
+#mainNav { 
+
+	     li:first-child{
+        list-style-type: none;
+        background: url('assets/AA-WWA-Logo-Trans-sprite2-60.png') no-repeat top left;
+        height: 30px;
+        padding-left:40px;
+        overflow:hidden;
+        background-size:30px;
+      
+        &:hover{
+          background-position: 0 -30px;
+          text-decoration: underline;
+          color: @grey;
+
+        }
+        &:active{
+          background-position: 0 -30px;
+          text-decoration: underline;
+          color: @grey;
+        }
+      }
+    li:first-child + li {
+      list-style-type: none;
+      background: url('assets/AA-WWD-Logo-Trans-sprite2-60.png') no-repeat top left;
+      height: 30px;
+      padding-left:40px;
+      overflow:hidden;
+      background-size:30px;
+      
+        &:hover{
+          background-position: 0 -30px;
+          text-decoration: underline;
+          color: @grey;
+
+        }
+        &:active{
+          background-position: 0 -30px;
+          text-decoration: underline;
+          color: @grey;
+        }
+      }
+
+
+    li:first-child + li + li {
+      list-style-type: none;
+      background: url('assets/AA-CU-Logo-Trans-sprite2-60.png') no-repeat top left;
+      height: 30px;
+      padding-left:40px;
+      overflow:hidden;
+      background-size:30px;
+    
+        &:hover{
+          background-position: 0 -30px;
+          text-decoration: underline;
+          color: @grey;
+
+        }
+        &:active{
+          background-position: 0 -30px;
+          text-decoration: underline;
+          color: @grey;
+        }
+      }
+
+      } // mainNav
+
+      #contact {
+
+     li:first-child {
+        list-style-type: none;
+        background: url('assets/AA-envelope-30.png') no-repeat top left;
+        height: 25px;
+        padding-left:52px;
+        padding-bottom: 30px;
+        margin-top: 20px;
+}
+     li:first-child + li  {
+        list-style-type: none;
+        background: url('assets/AA-phone-30.png') no-repeat top left;
+        height: 25px;
+        padding-left:52px;
+        padding-bottom: 30px;
+        margin-top: 20px;
+}
+     li:first-child + li + li {
+        list-style-type: none;
+        background: url('assets/AA-pin-30.png') no-repeat top left;
+        height: 25px;
+        padding-left:52px;
+        padding-bottom: 30px;
+        margin-top: 20px;
+}
+} // contact
