@@ -1,9 +1,18 @@
 @grey: #bdc1c7;
 @blue: #8fa0ad;
 
+* {
+	margin: 0;
+}
 
 html, body {
-	text-align: center;
+	height: 100%;
+}
+
+body {
+	position: relative;
+	left:50%;
+	margin-left: -445px;
 }
 
 // Make footer img appear in IE8
@@ -39,7 +48,11 @@ html, body {
 #pagewrap {
 	position:relative;
 	width: 550px;
-	min-height: 700px;
+	// min-height: 700px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -100px;
 }
 
 #homewrap {
@@ -147,4 +160,8 @@ html, body {
         margin-top: 20px;
 }
 } // contact
+
+.footer .push {
+	height: 100px;
+}
 
