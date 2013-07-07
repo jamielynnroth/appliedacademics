@@ -46,15 +46,7 @@ body {
 }
 
 
-#mainNav ul li {
-	  display: inline !important;
-      float: left !important;
-      width: 100% !important;
-      position:relative;
-      top:0;
-      left:0;
-      width: 188px !important;
-}
+
 
 #pagewrap {
 	position:relative;
@@ -79,6 +71,7 @@ body {
 	min-height: 300px;
 	margin-left: 0 !important;
 	clear: both;
+	margin-top: 0 !important;
 }
 
 
@@ -98,12 +91,17 @@ body {
 
 // make custom li img appear in IE 8
 #mainNav { 
+	 ul li {
+	  display: inline !important;
+      float: left !important;
+      width: 100% !important;
+      position:relative;
+      top:0;
+      left:0;
+      width: 188px !important;
+      clear:both;
+}
 
-		li {
-			display: block !important;
-			left: 0;
-			clear: both;
-		}
 
 	     li:first-child{
         list-style-type: none;
