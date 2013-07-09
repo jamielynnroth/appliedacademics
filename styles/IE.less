@@ -225,7 +225,7 @@ body {
 }
 
 // correct footer links being cut off in ie 7 and 8
-#footer h4 {
+#footerlinks li a h4 {
 	line-height: 15px;
 }
 
@@ -235,5 +235,19 @@ body {
   margin-left: -445px;
   position: absolute;
   left: 50%;
+
+  // center vertically text in go to archives button
+  #readmore a h2 {
+    line-height: 30px;
+  }
+}
+
+// balance what content vertically
+#ie7_body .whatwrap {
+  padding-bottom: 30px;
+}
+
+#ie_body .what #footer {
+  margin-bottom: -100px !important;
 }
 
