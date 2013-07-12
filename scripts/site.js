@@ -19,10 +19,14 @@ $(document).ready(function(){
 	}); // doc ready
 
 $(document).ready(function(){
-	$('#mainNav').find('#wwa').toggle(
+	$('#mainNav').find('#wwa').hover(
 		function () {
-			$(this).attr({src:'AA-WWA-Logo-Trans-G-45.png'});
-})
+		$(this).src ='assets/AA-WWA-Logo-Trans-G-45.png';
+}, function () {
+		$(this).src="assets/AA-WWA-Logo-Trans-B-45.png";
+	});
+
+}); // doc ready
 
 // vertically center the #content block on window load
 // only if content is less than height: 400px
