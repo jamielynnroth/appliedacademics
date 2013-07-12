@@ -18,15 +18,15 @@ $(document).ready(function(){
 	); // hover
 	}); // doc ready
 
-$(document).ready(function(){
-	$('#mainNav').find('#wwa').hover(
-		function () {
-		$(this).src ='assets/AA-WWA-Logo-Trans-G-45.png';
-}, function () {
-		$(this).src="assets/AA-WWA-Logo-Trans-B-45.png";
-	});
+// $(document).ready(function(){
+// 	$('#mainNav').find('#wwa').hover(
+// 		function () {
+// 		$(this).src ='assets/AA-WWA-Logo-Trans-G-45.png';
+// }, function () {
+// 		$(this).src="assets/AA-WWA-Logo-Trans-B-45.png";
+// 	});
 
-}); // doc ready
+// }); // doc ready
 
 // vertically center the #content block on window load
 // only if content is less than height: 400px
