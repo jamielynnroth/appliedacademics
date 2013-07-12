@@ -18,6 +18,12 @@ $(document).ready(function(){
 	); // hover
 	}); // doc ready
 
+$(document).ready(function(){
+	$('#mainNav').find('#wwa').toggle(
+		function () {
+			$(this).attr({src:'AA-WWA-Logo-Trans-G-45.png'});
+})
+
 // vertically center the #content block on window load
 // only if content is less than height: 400px
 //  $(document).ready(function(){
